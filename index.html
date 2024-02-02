@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Subscription</title>
+</head>
+
+<body class="bg-slate-100">
+<section class="container mx-auto px-8 py-8 lg:py-40">
+    <p class="block antialiased tracking-wide text-lg font-semibold ms-1 text-blue-gray-900">Select Distribution</p>
+
+    <div class="grid grid-cols-1 gap-4 mt-4 lg:grid-cols-2">
+        <div class=" peer-hover:border-transparent text-slate-950 shadow-md grow overflow-hidden rounded-xl px-2 bg-slate-50 border-2 border-red-900 border-b-transparent hover:shadow-2xl">
+            <div class="p-6 relative flex flex-col">
+
+                <div class="rounded-full size-14 grid bg-red-100 mb-5">
+                    <i class='bx bxs-plane-alt text-red-700 text-4xl place-self-center'></i>
+                </div>
+
+                <h4 class="block antialiased font-sans text-2xl font-normal text-red-500">Basic</h4>
+                
+                <div class="relative my-2 ">
+                    <details class="inline group">
+                        <summary class="flex justify-start cursor-pointer">
+                            <p class="inline antialiased font-sans text-base font-light leading-relaxed text-black ">Published to 100+ news sites  </p>
+                            <span class="transition group-open:rotate-180">
+                                <i class='bx bx-chevron-up text-2xl align-middle cursor-pointer'></i>
+                            </span>
+                        </summary>
+                        <p class="text-neutral-600 my-3 group-open:animate-fadeIn">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste labore non rem velit consectetur ea? Cum, sapiente. Officia voluptatum omnis debitis aperiam quidem ad excepturi, at nobis fuga, dolorem saepe!
+                    </p>
+                </details>
+                </div>
+                
+                <h2 class="font-extrabold price text-3xl inline-block mb-4">$74.99 <span class="font-thin text-base align-middle ms-2"> Per release <i class='bx bx-info-circle align-middle cursor-pointer ms-1'></i></span></h2>
+                
+                <!-- adding hidden in class for future purposes -->
+                <ul>
+                    <li class=""><i class='bx bxs-check-circle text-lg text-teal-400 my-1 align-middle'></i> <span class="text-sm">Published on digital journal </span></li>
+                    <li class="hidden"><i class='bx bxs-check-circle text-lg text-teal-400 my-1 align-middle'></i> <span class="text-sm">Published on PRnewswire.com </span></li>
+                    <li class="hidden"><i class='bx bxs-check-circle text-lg text-teal-400 my-1 align-middle'></i> <span class="text-sm">Published on Yahoo finance </span></li>
+                    <li class="hidden"><i class='bx bxs-check-circle text-lg text-teal-400 my-1 align-middle'></i> <span class="text-sm">Sent to market watch </span></li>
+                    <li class=""><i class='bx bxs-check-circle text-lg text-teal-400 my-1 align-middle'></i> <span class="text-sm">Sent to google news </span></li>
+                    <li class=""><i class='bx bxs-check-circle text-lg text-teal-400 my-1 align-middle'></i> <span class="text-sm">And many more </span><li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="text-slate-950 shadow-md overflow-hidden grow rounded-xl px-2 bg-slate-50 transition duration-300 border-2 hover:border-red-900 hover:border-b-transparent hover:shadow-2xl peer">
+            <div class="p-6 relative flex flex-col">
+
+                <div class="rounded-full size-14 grid bg-red-100 mb-5">
+                    <i class='bx bxs-rocket text-red-700 text-4xl place-self-center'></i>
+                </div>
+
+                <h4 class="block antialiased font-sans text-2xl font-normal text-red-500">US National</h4>
+
+                <div class="relative my-2 ">
+                    <details class="inline group">
+                        <summary class="flex justify-start cursor-pointer">
+                            <p class="inline antialiased font-sans text-base font-light leading-relaxed text-black ">Published to 200+ news sites  </p>
+                            <span class="transition group-open:rotate-180">
+                                <i class='bx bx-chevron-up text-2xl align-middle cursor-pointer'></i>
+                            </span>
+                        </summary>
+                        <p class="text-neutral-600 my-3 group-open:animate-fadeIn">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste labore non rem velit consectetur ea? Cum, sapiente. Officia voluptatum omnis debitis aperiam quidem ad excepturi, at nobis fuga, dolorem saepe!
+                    </p>
+                </details>
+                </div>
+                <h2 class="font-extrabold price text-3xl inline-block mb-4">$419.99 <span class="font-thin text-base align-middle ms-2"> Per release <i class='bx bx-info-circle align-middle cursor-pointer ms-1'></i></span></h2>
+
+                <!-- adding hidden class for future purposes -->
+                <ul>
+                    <li><i class='bx bxs-check-circle text-lg text-teal-400 my-1 align-middle'></i> <span class="text-sm">Published on digital journal </span></li>
+                    <li><i class='bx bxs-check-circle text-lg text-teal-400 my-1 align-middle'></i> <span class="text-sm">Published on PRnewswire.com </span></li>
+                    <li><i class='bx bxs-check-circle text-lg text-teal-400 my-1 align-middle'></i> <span class="text-sm">Published on Yahoo finance </span></li>
+                    <li><i class='bx bxs-check-circle text-lg text-teal-400 my-1 align-middle'></i> <span class="text-sm">Sent to market watch </span></li>
+                    <li><i class='bx bxs-check-circle text-lg text-teal-400 my-1 align-middle'></i> <span class="text-sm">Sent to google news </span></li>
+                    <li><i class='bx bxs-check-circle text-lg text-teal-400 my-1 align-middle'></i> <span class="text-sm">And many more </span><li>
+                </ul>
+
+            </div>
+        </div>     
+    </div>
+  </section>
+</body>
+</html>
